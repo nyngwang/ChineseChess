@@ -6,6 +6,8 @@ import chess.ChessColor;
 import chess.General;
 import game.ChessBoard;
 import game.StandardChessBoard;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 import javax.sound.sampled.AudioSystem;
 import javax.sound.sampled.Clip;
@@ -201,6 +203,8 @@ public class GUI extends JFrame implements View {
     private Image resize(Image chess) {
         return new ImageIcon(chess.getScaledInstance(50, 50, Image.SCALE_DEFAULT)).getImage();
     }
+
+    public static final Logger team1Logger = LoggerFactory.getLogger("team1-FILE");
 
     public static void main(String[] args) { //262, 20
         Chess[] chessList = {new General(ChessColor.RED, new Point(4, 0)),

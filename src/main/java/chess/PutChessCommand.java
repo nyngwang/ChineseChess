@@ -23,8 +23,8 @@ public class PutChessCommand implements ChessCommand {
             removeChess(nextChess);
         } else if (nextChess == null) {
             moveChess(selectChess, nextPoint);
-        } else {
-            throw new InvalidMoveException("Cannot eat same color chess");
+        } else if (nextChess.getColor() == selectChess.getColor()) {
+            team1Logger.info("in putChessCommand execute(), the same color good good eat.");
         }
     }
 
@@ -32,12 +32,16 @@ public class PutChessCommand implements ChessCommand {
         this.chess = chess;
         previousPoint = new Point(chess.getCurrentPoint().x, chess.getCurrentPoint().y);
         chess.move(point);
+        team1Logger.info("in moveChess, chess is moved: chess={}, point={},{}",
+                chess.getClass().getName(), point.x, point.y);
     }
 
     private void removeChess(Chess chess) {
         removeChessPoint = new Point(chess.getCurrentPoint().x, chess.getCurrentPoint().y);
         removeChess = chess;
         chess.remove();
+        team1Logger.info("in removeChess, chess is removed: chess={}",
+                chess.getClass().getName());
     }
 
     @Override

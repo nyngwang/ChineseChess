@@ -8,6 +8,8 @@ import java.awt.*;
 import java.util.List;
 import java.util.*;
 
+import static view.GUI.team1Logger;
+
 public class ChessBoard {
 
     private Stack<ChessCommand> chessCommands = new Stack<>();
@@ -70,7 +72,9 @@ public class ChessBoard {
     }
 
     private boolean isInTheBoundary(Point point) {
-        return point.x < 9 && point.x >= 0 && point.y < 10 && point.y >= 0;
+        boolean isInTheBoundary = point.x < 9 && point.x >= 0 && point.y < 10 && point.y >= 0;
+        team1Logger.info("In isInTheBoundary, point={},{}, return={}", point.x, point.y, isInTheBoundary);
+        return isInTheBoundary;
     }
 
     public List<Chess> getChessList() {
