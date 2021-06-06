@@ -52,7 +52,7 @@ public class ChessBoard {
 
     public List<Chess> getChessByCol(int x) {
         List<Chess> chessList = new ArrayList<>();
-        for (int i=0; i<=9; i++) {
+        for (int i = 0; i <= 9; i++) {
             getChessByPoint(x, i).ifPresent(chessList::add);
         }
         return chessList;

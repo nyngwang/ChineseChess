@@ -1,9 +1,11 @@
 package chess;
 
-import exception.InvalidMoveException;
 import game.ChessBoard;
 
 import java.awt.*;
+
+import static view.GUI.team1Logger;
+
 
 public class PutChessCommand implements ChessCommand {
 
@@ -14,6 +16,9 @@ public class PutChessCommand implements ChessCommand {
 
     @Override
     public void execute(ChessBoard chessBoard, Point selectPoint, Point nextPoint) {
+        team1Logger.info("in PutChessCommand, selectPoint={},{}, nextPoint={},{}",
+                selectPoint.x, selectPoint.y, nextPoint.x, nextPoint.y);
+
         Chess selectChess = chessBoard.getChessByPoint(selectPoint)
                 .orElseThrow(() -> new IllegalArgumentException("No chess found at the point " + selectPoint));
         Chess nextChess = chessBoard.getChessByPoint(nextPoint).orElse(null);
