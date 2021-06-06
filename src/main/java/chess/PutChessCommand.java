@@ -1,5 +1,6 @@
 package chess;
 
+import exception.InvalidMoveException;
 import game.ChessBoard;
 
 import java.awt.*;
@@ -28,8 +29,9 @@ public class PutChessCommand implements ChessCommand {
             removeChess(nextChess);
         } else if (nextChess == null) {
             moveChess(selectChess, nextPoint);
-        } else if (nextChess.getColor() == selectChess.getColor()) {
+        } else {
             team1Logger.info("in putChessCommand execute(), the same color good good eat.");
+            throw new InvalidMoveException("Cannot eat same color chess");
         }
     }
 
