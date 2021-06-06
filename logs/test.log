@@ -1,0 +1,119 @@
+23:54:33.955 [AWT-EventQueue-0] INFO  team1-FILE - in PutChessCommand, selectPoint=0,0, nextPoint=0,2
+23:54:33.959 [AWT-EventQueue-0] INFO  team1-FILE - In isInTheBoundary, point=0,0, return=true
+23:54:33.960 [AWT-EventQueue-0] INFO  team1-FILE - In isInTheBoundary, point=0,2, return=true
+23:54:33.960 [AWT-EventQueue-0] INFO  team1-FILE - In isInTheBoundary, point=0,1, return=true
+23:54:33.960 [AWT-EventQueue-0] INFO  team1-FILE - in moveChess, chess is moved: chess=chess.Rook, point=0,2
+23:54:37.798 [AWT-EventQueue-0] INFO  team1-FILE - in PutChessCommand, selectPoint=0,2, nextPoint=8,2
+23:54:37.798 [AWT-EventQueue-0] INFO  team1-FILE - In isInTheBoundary, point=0,2, return=true
+23:54:37.798 [AWT-EventQueue-0] INFO  team1-FILE - In isInTheBoundary, point=8,2, return=true
+23:54:42.737 [AWT-EventQueue-0] INFO  team1-FILE - in PutChessCommand, selectPoint=1,0, nextPoint=1,1
+23:54:42.737 [AWT-EventQueue-0] INFO  team1-FILE - In isInTheBoundary, point=1,0, return=true
+23:54:42.737 [AWT-EventQueue-0] INFO  team1-FILE - In isInTheBoundary, point=1,1, return=true
+23:54:51.299 [AWT-EventQueue-0] INFO  team1-FILE - in PutChessCommand, selectPoint=1,0, nextPoint=3,1
+23:54:51.300 [AWT-EventQueue-0] INFO  team1-FILE - In isInTheBoundary, point=1,0, return=true
+23:54:51.300 [AWT-EventQueue-0] INFO  team1-FILE - In isInTheBoundary, point=3,1, return=true
+23:54:56.377 [AWT-EventQueue-0] INFO  team1-FILE - in PutChessCommand, selectPoint=1,0, nextPoint=0,2
+23:54:56.377 [AWT-EventQueue-0] INFO  team1-FILE - In isInTheBoundary, point=1,0, return=true
+23:54:56.377 [AWT-EventQueue-0] INFO  team1-FILE - In isInTheBoundary, point=0,2, return=true
+23:54:56.377 [AWT-EventQueue-0] INFO  team1-FILE - in putChessCommand execute(), the same color good good eat.
+23:54:59.977 [AWT-EventQueue-0] INFO  team1-FILE - in PutChessCommand, selectPoint=2,0, nextPoint=4,2
+23:54:59.978 [AWT-EventQueue-0] INFO  team1-FILE - In isInTheBoundary, point=2,0, return=true
+23:54:59.978 [AWT-EventQueue-0] INFO  team1-FILE - In isInTheBoundary, point=4,2, return=true
+23:55:10.545 [AWT-EventQueue-0] INFO  team1-FILE - in PutChessCommand, selectPoint=3,0, nextPoint=3,1
+23:55:10.546 [AWT-EventQueue-0] INFO  team1-FILE - In isInTheBoundary, point=3,0, return=true
+23:55:10.546 [AWT-EventQueue-0] INFO  team1-FILE - In isInTheBoundary, point=3,1, return=true
+23:55:17.182 [AWT-EventQueue-0] INFO  team1-FILE - in PutChessCommand, selectPoint=3,0, nextPoint=4,1
+23:55:17.183 [AWT-EventQueue-0] INFO  team1-FILE - In isInTheBoundary, point=3,0, return=true
+23:55:17.183 [AWT-EventQueue-0] INFO  team1-FILE - In isInTheBoundary, point=4,1, return=true
+23:55:17.183 [AWT-EventQueue-0] INFO  team1-FILE - in moveChess, chess is moved: chess=chess.Knight, point=4,1
+23:55:21.611 [AWT-EventQueue-0] INFO  team1-FILE - in PutChessCommand, selectPoint=4,1, nextPoint=5,2
+23:55:21.611 [AWT-EventQueue-0] INFO  team1-FILE - In isInTheBoundary, point=4,1, return=true
+23:55:21.611 [AWT-EventQueue-0] INFO  team1-FILE - In isInTheBoundary, point=5,2, return=true
+23:55:21.611 [AWT-EventQueue-0] INFO  team1-FILE - in moveChess, chess is moved: chess=chess.Knight, point=5,2
+23:55:30.929 [AWT-EventQueue-0] INFO  team1-FILE - in PutChessCommand, selectPoint=5,2, nextPoint=6,2
+23:55:30.929 [AWT-EventQueue-0] INFO  team1-FILE - In isInTheBoundary, point=5,2, return=true
+23:55:30.929 [AWT-EventQueue-0] INFO  team1-FILE - In isInTheBoundary, point=6,2, return=true
+23:55:44.392 [AWT-EventQueue-0] INFO  team1-FILE - in PutChessCommand, selectPoint=7,2, nextPoint=7,9
+23:55:44.393 [AWT-EventQueue-0] INFO  team1-FILE - In isInTheBoundary, point=7,2, return=true
+23:55:44.393 [AWT-EventQueue-0] INFO  team1-FILE - In isInTheBoundary, point=7,9, return=true
+23:55:44.393 [AWT-EventQueue-0] INFO  team1-FILE - In isInTheBoundary, point=7,3, return=true
+23:55:44.393 [AWT-EventQueue-0] INFO  team1-FILE - In isInTheBoundary, point=7,4, return=true
+23:55:44.393 [AWT-EventQueue-0] INFO  team1-FILE - In isInTheBoundary, point=7,5, return=true
+23:55:44.393 [AWT-EventQueue-0] INFO  team1-FILE - In isInTheBoundary, point=7,6, return=true
+23:55:44.393 [AWT-EventQueue-0] INFO  team1-FILE - In isInTheBoundary, point=7,7, return=true
+23:55:44.393 [AWT-EventQueue-0] INFO  team1-FILE - In isInTheBoundary, point=7,8, return=true
+23:55:44.393 [AWT-EventQueue-0] INFO  team1-FILE - in moveChess, chess is moved: chess=chess.Cannon, point=7,9
+23:55:44.393 [AWT-EventQueue-0] INFO  team1-FILE - in removeChess, chess is removed: chess=chess.Horse
+23:55:59.402 [AWT-EventQueue-0] INFO  team1-FILE - in PutChessCommand, selectPoint=4,6, nextPoint=4,5
+23:55:59.402 [AWT-EventQueue-0] INFO  team1-FILE - In isInTheBoundary, point=4,6, return=true
+23:55:59.402 [AWT-EventQueue-0] INFO  team1-FILE - In isInTheBoundary, point=4,5, return=true
+23:55:59.403 [AWT-EventQueue-0] INFO  team1-FILE - in moveChess, chess is moved: chess=chess.Pawn, point=4,5
+23:56:08.514 [AWT-EventQueue-0] INFO  team1-FILE - in PutChessCommand, selectPoint=6,6, nextPoint=7,6
+23:56:08.515 [AWT-EventQueue-0] INFO  team1-FILE - In isInTheBoundary, point=6,6, return=true
+23:56:08.516 [AWT-EventQueue-0] INFO  team1-FILE - In isInTheBoundary, point=7,6, return=true
+23:56:25.920 [AWT-EventQueue-0] INFO  team1-FILE - in PutChessCommand, selectPoint=7,6, nextPoint=8,6
+23:56:25.921 [AWT-EventQueue-0] INFO  team1-FILE - In isInTheBoundary, point=7,6, return=true
+23:56:34.112 [AWT-EventQueue-0] INFO  team1-FILE - in PutChessCommand, selectPoint=4,0, nextPoint=4,9
+23:56:34.112 [AWT-EventQueue-0] INFO  team1-FILE - In isInTheBoundary, point=4,0, return=true
+23:56:34.112 [AWT-EventQueue-0] INFO  team1-FILE - In isInTheBoundary, point=4,9, return=true
+23:56:42.233 [AWT-EventQueue-0] INFO  team1-FILE - in PutChessCommand, selectPoint=2,6, nextPoint=2,7
+23:56:42.233 [AWT-EventQueue-0] INFO  team1-FILE - In isInTheBoundary, point=2,6, return=true
+23:56:42.233 [AWT-EventQueue-0] INFO  team1-FILE - In isInTheBoundary, point=2,7, return=true
+23:56:52.234 [AWT-EventQueue-0] INFO  team1-FILE - in PutChessCommand, selectPoint=1,7, nextPoint=7,7
+23:56:52.234 [AWT-EventQueue-0] INFO  team1-FILE - In isInTheBoundary, point=1,7, return=true
+23:56:52.234 [AWT-EventQueue-0] INFO  team1-FILE - In isInTheBoundary, point=7,7, return=true
+23:56:52.234 [AWT-EventQueue-0] INFO  team1-FILE - in putChessCommand execute(), the same color good good eat.
+23:57:05.189 [AWT-EventQueue-0] INFO  team1-FILE - in PutChessCommand, selectPoint=8,9, nextPoint=8,6
+23:57:05.191 [AWT-EventQueue-0] INFO  team1-FILE - In isInTheBoundary, point=8,9, return=true
+23:57:05.191 [AWT-EventQueue-0] INFO  team1-FILE - In isInTheBoundary, point=8,6, return=true
+23:57:05.191 [AWT-EventQueue-0] INFO  team1-FILE - in putChessCommand execute(), the same color good good eat.
+23:57:16.148 [AWT-EventQueue-0] INFO  team1-FILE - in PutChessCommand, selectPoint=2,9, nextPoint=2,7
+23:57:16.148 [AWT-EventQueue-0] INFO  team1-FILE - In isInTheBoundary, point=2,9, return=true
+23:57:16.148 [AWT-EventQueue-0] INFO  team1-FILE - In isInTheBoundary, point=2,7, return=true
+23:57:26.672 [AWT-EventQueue-0] INFO  team1-FILE - in PutChessCommand, selectPoint=6,9, nextPoint=4,7
+23:57:26.672 [AWT-EventQueue-0] INFO  team1-FILE - In isInTheBoundary, point=6,9, return=true
+23:57:26.672 [AWT-EventQueue-0] INFO  team1-FILE - In isInTheBoundary, point=4,7, return=true
+23:57:39.079 [AWT-EventQueue-0] INFO  team1-FILE - in PutChessCommand, selectPoint=1,7, nextPoint=7,7
+23:57:39.079 [AWT-EventQueue-0] INFO  team1-FILE - In isInTheBoundary, point=1,7, return=true
+23:57:39.079 [AWT-EventQueue-0] INFO  team1-FILE - In isInTheBoundary, point=7,7, return=true
+23:57:39.079 [AWT-EventQueue-0] INFO  team1-FILE - in putChessCommand execute(), the same color good good eat.
+23:57:47.158 [AWT-EventQueue-0] INFO  team1-FILE - in PutChessCommand, selectPoint=0,6, nextPoint=0,5
+23:57:47.159 [AWT-EventQueue-0] INFO  team1-FILE - In isInTheBoundary, point=0,6, return=true
+23:57:47.159 [AWT-EventQueue-0] INFO  team1-FILE - In isInTheBoundary, point=0,5, return=true
+23:57:47.159 [AWT-EventQueue-0] INFO  team1-FILE - in moveChess, chess is moved: chess=chess.Pawn, point=0,5
+23:57:50.498 [AWT-EventQueue-0] INFO  team1-FILE - in PutChessCommand, selectPoint=0,5, nextPoint=0,4
+23:57:50.498 [AWT-EventQueue-0] INFO  team1-FILE - In isInTheBoundary, point=0,5, return=true
+23:57:50.498 [AWT-EventQueue-0] INFO  team1-FILE - In isInTheBoundary, point=0,4, return=true
+23:57:50.498 [AWT-EventQueue-0] INFO  team1-FILE - in moveChess, chess is moved: chess=chess.Pawn, point=0,4
+23:57:54.262 [AWT-EventQueue-0] INFO  team1-FILE - in PutChessCommand, selectPoint=0,4, nextPoint=0,3
+23:57:54.263 [AWT-EventQueue-0] INFO  team1-FILE - In isInTheBoundary, point=0,4, return=true
+23:57:54.263 [AWT-EventQueue-0] INFO  team1-FILE - In isInTheBoundary, point=0,3, return=true
+23:57:54.263 [AWT-EventQueue-0] INFO  team1-FILE - in moveChess, chess is moved: chess=chess.Pawn, point=0,3
+23:57:54.263 [AWT-EventQueue-0] INFO  team1-FILE - in removeChess, chess is removed: chess=chess.Pawn
+23:58:01.123 [AWT-EventQueue-0] INFO  team1-FILE - in PutChessCommand, selectPoint=4,9, nextPoint=4,8
+23:58:01.123 [AWT-EventQueue-0] INFO  team1-FILE - In isInTheBoundary, point=4,9, return=true
+23:58:01.123 [AWT-EventQueue-0] INFO  team1-FILE - In isInTheBoundary, point=4,8, return=true
+23:58:01.124 [AWT-EventQueue-0] INFO  team1-FILE - in moveChess, chess is moved: chess=chess.General, point=4,8
+23:58:13.189 [AWT-EventQueue-0] INFO  team1-FILE - in PutChessCommand, selectPoint=4,8, nextPoint=3,8
+23:58:13.190 [AWT-EventQueue-0] INFO  team1-FILE - In isInTheBoundary, point=4,8, return=true
+23:58:13.190 [AWT-EventQueue-0] INFO  team1-FILE - In isInTheBoundary, point=3,8, return=true
+23:58:13.190 [AWT-EventQueue-0] INFO  team1-FILE - in moveChess, chess is moved: chess=chess.General, point=3,8
+23:58:28.310 [AWT-EventQueue-0] INFO  team1-FILE - in PutChessCommand, selectPoint=3,8, nextPoint=3,9
+23:58:28.311 [AWT-EventQueue-0] INFO  team1-FILE - In isInTheBoundary, point=3,8, return=true
+23:58:28.311 [AWT-EventQueue-0] INFO  team1-FILE - In isInTheBoundary, point=3,9, return=true
+23:58:28.311 [AWT-EventQueue-0] INFO  team1-FILE - in putChessCommand execute(), the same color good good eat.
+23:58:36.298 [AWT-EventQueue-0] INFO  team1-FILE - in PutChessCommand, selectPoint=3,8, nextPoint=2,8
+23:58:36.299 [AWT-EventQueue-0] INFO  team1-FILE - In isInTheBoundary, point=3,8, return=true
+23:58:36.300 [AWT-EventQueue-0] INFO  team1-FILE - In isInTheBoundary, point=2,8, return=true
+23:58:36.300 [AWT-EventQueue-0] INFO  team1-FILE - In isInTheBoundary, point=2,8, return=true
+23:58:48.418 [AWT-EventQueue-0] INFO  team1-FILE - in PutChessCommand, selectPoint=5,9, nextPoint=3,7
+23:58:48.418 [AWT-EventQueue-0] INFO  team1-FILE - In isInTheBoundary, point=5,9, return=true
+23:58:48.418 [AWT-EventQueue-0] INFO  team1-FILE - In isInTheBoundary, point=3,7, return=true
+23:58:59.298 [AWT-EventQueue-0] INFO  team1-FILE - in PutChessCommand, selectPoint=8,9, nextPoint=8,3
+23:58:59.298 [AWT-EventQueue-0] INFO  team1-FILE - In isInTheBoundary, point=8,9, return=true
+23:58:59.298 [AWT-EventQueue-0] INFO  team1-FILE - In isInTheBoundary, point=8,3, return=true
+23:58:59.298 [AWT-EventQueue-0] INFO  team1-FILE - In isInTheBoundary, point=8,8, return=true
+23:58:59.298 [AWT-EventQueue-0] INFO  team1-FILE - In isInTheBoundary, point=8,7, return=true
+23:58:59.298 [AWT-EventQueue-0] INFO  team1-FILE - In isInTheBoundary, point=8,6, return=true
+23:58:59.298 [AWT-EventQueue-0] INFO  team1-FILE - In isInTheBoundary, point=8,5, return=true
+23:58:59.298 [AWT-EventQueue-0] INFO  team1-FILE - In isInTheBoundary, point=8,4, return=true
