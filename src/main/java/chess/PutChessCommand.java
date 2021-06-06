@@ -7,7 +7,7 @@ import java.awt.*;
 
 import static view.GUI.team1Logger;
 
-
+@SuppressWarnings("SuspiciousNameCombination")
 public class PutChessCommand implements ChessCommand {
 
     private Chess chess;
@@ -37,14 +37,14 @@ public class PutChessCommand implements ChessCommand {
 
     private void moveChess(Chess chess, Point point) {
         this.chess = chess;
-        previousPoint = new Point(chess.getCurrentPoint().x, chess.getCurrentPoint().y);
+        previousPoint = new Point(chess.getCurrentPoint().y, chess.getCurrentPoint().x);
         chess.move(point);
         team1Logger.info("in moveChess, chess is moved: chess={}, point={},{}",
                 chess.getClass().getName(), point.x, point.y);
     }
 
     private void removeChess(Chess chess) {
-        removeChessPoint = new Point(chess.getCurrentPoint().x, chess.getCurrentPoint().y);
+        removeChessPoint = new Point(chess.getCurrentPoint().y, chess.getCurrentPoint().x);
         removeChess = chess;
         chess.remove();
         team1Logger.info("in removeChess, chess is removed: chess={}",
