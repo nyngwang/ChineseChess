@@ -7,7 +7,7 @@ public class Horse extends Chess {
     private Point newPoint = new Point();
     private final Integer[] offsetX = {2, 1, -1, -2, -2, -1, 1, 2};
     private final Integer[] offsetY = {1, 2, 2, 1, -1, -2, -2, -1};
-    private final Integer[] obstacleX = {1, 0, 0, -1, -1, 0, 0, 1};
+    private final Integer[] obstacleX = {1, 0, 1, -1, -1, 0, 0, 1};
     private final Integer[] obstacleY = {0, 1, 1, 0, 0, -1, -1, 0};
 
     public Horse(ChessColor chessColor, Point point) {

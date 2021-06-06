@@ -33,7 +33,7 @@ public class StandardChessBoard extends ChessBoard {
         chessList[9] = new Cannon(RED, new Point(1, 2));
         chessList[10] = new Cannon(RED, new Point(7, 2));
         chessList[11] = new Pawn(RED, new Point(0, 3));
-        chessList[12] = new Pawn(RED, new Point(2, 3));
+        chessList[12] = new Pawn(RED, new Point(1, 3));
         chessList[13] = new Pawn(RED, new Point(4, 3));
         chessList[14] = new Pawn(RED, new Point(6, 3));
         chessList[15] = new Pawn(RED, new Point(8, 3));
