@@ -16,7 +16,7 @@ public class Elephant extends Chess {
 
     @Override
     public boolean validMove(Point nextPoint) {
-        for (int i = 0; i < offsetX.length; i++) {
+        for (int i = 3; i < offsetX.length; i++) {
             obstaclePoint.setLocation(currentPoint.x + obstacleX[i], currentPoint.y + obstacleY[i]);
             newPoint.setLocation(currentPoint.x + offsetX[i], currentPoint.y + offsetY[i]);
             if (newPoint.equals(nextPoint) && !chessBoard.chessExist(obstaclePoint)) {
